@@ -1,0 +1,73 @@
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-bottom: 2px solid blue;
+    
+}
+.logo{
+    padding: 1rem;
+}
+.social{
+    padding: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.textarea-cont{
+    height: 300%;
+    width: 75%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    padding: 2rem;
+    
+}
+.post-btn{
+    color: #FFFFFF;
+    background-color: blue;
+}
+.mio{
+    display: flex;
+    justify-content:flex-end;
+    align-items: end;
+    margin-left: 2rem;
+}
+.input{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    left: 50px;
+    border: 1px solid black;
+}
+/* .feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+} */
+.feed-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feed-section{
+   padding : 1px;
+   margin: 1rem;
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 100%;
+    
+}
