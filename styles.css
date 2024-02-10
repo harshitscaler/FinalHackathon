@@ -31,7 +31,6 @@ navbar{
     resize: none;
     font-size: 2rem;
     padding: 2rem;
-    
 }
 .post-btn{
     color: #FFFFFF;
@@ -45,7 +44,7 @@ navbar{
 }
 .input{
     height: 300px;
-    width: 400px;
+    width: 100%;
     background-color: white;
     left: 50px;
     border: 1px solid black;
@@ -58,24 +57,10 @@ navbar{
     margin-left: 3rem;
     margin-right: 3rem;
 } */
-.feed-heading{
+/* .feed-heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-@media only screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .textarea-cont {
-        width: 100%;
-    }
-
-    .input {
-        width: 100%;
-    }
 }
 .feed-section{
    padding : 1px;
@@ -84,4 +69,32 @@ navbar{
    border-radius: 5px;
    width: 100%;
     
+} */
+.comment {
+    width: 60%;
+}
+
+.feed-section {
+    width: 40%;
+    padding: 1rem;
+}
+
+.feed-section > .feed-section {
+    border: 1px solid black;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .feed-section {
+        width: 100%;
+    }
+
+    .comment {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
